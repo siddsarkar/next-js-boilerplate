@@ -7,13 +7,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "fontsource-roboto": "^3.0.3",
     "next": "latest",
+    "nprogress": "^0.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-markdown": "^5.0.2",
     "react-redux": "^7.1.0",
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {}
 }
