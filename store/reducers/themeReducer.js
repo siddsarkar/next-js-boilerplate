@@ -1,14 +1,5 @@
 import * as actionTypes from "../actions/actionTypes";
 
-// const foundSomething = () => {
-// 	const dark = localStorage.getItem('dark');
-// 	if (dark === null) {
-// 		return false;
-// 	} else {
-// 		return true;
-// 	}
-// };
-
 const initialState = {
   dark: false,
 };

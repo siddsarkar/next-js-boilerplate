@@ -1,27 +1,28 @@
-import { useSelector } from 'react-redux'
-import Link from 'next/link'
+import Link from "next/link";
+import { useSelector } from "react-redux";
+import Layout from "../components/layout";
 
 const codeStyle = {
-  background: '#ebebeb',
+  // background: "#ebebeb",
   width: 400,
   padding: 10,
-  border: '1px solid grey',
+  border: "1px solid grey",
   marginBottom: 10,
-}
+};
 
 const ShowReduxState = () => {
-  const state = useSelector((state) => state)
+  const state = useSelector((state) => state);
 
   return (
-    <>
+    <Layout page='homepage'>
       <pre style={codeStyle}>
         <code>{JSON.stringify(state, null, 4)}</code>
       </pre>
-      <Link href="/">
+      <Link href='/'>
         <a>Go Back Home</a>
       </Link>
-    </>
-  )
-}
+    </Layout>
+  );
+};
 
-export default ShowReduxState
+export default ShowReduxState;

@@ -4,6 +4,7 @@ import NProgress from "nprogress";
 import "nprogress/nprogress.css";
 import { Provider } from "react-redux";
 import { useStore } from "../store/store";
+import "../styles/global.css";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
