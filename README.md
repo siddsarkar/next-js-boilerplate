@@ -4,7 +4,7 @@ Kick start your NextJs project with pre-implemented starters (eg: redux, darkthe
 
 ## ✈ Live Preview of the Template
 
-- [See Here! 🔗](https://next-js-boilerplate.herokuapp.com/)
+- [See Here! 🔗](https://next-js-template.herokuapp.com/)
 - Deployed using Heroku
 
 ## ❤ Content
@@ -17,6 +17,7 @@ Kick start your NextJs project with pre-implemented starters (eg: redux, darkthe
   - Redux (with redux-thunk)
   - Material UI
   - Nprogress
+  - Redux-devtools-extension
 ```
 
 ## ⚔ Getting Started
@@ -39,4 +40,4 @@ Kick start your NextJs project with pre-implemented starters (eg: redux, darkthe
 
 ## 🛡 License
 
-This project is under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is under the MIT License - see the [LICENSE](LICENSE) file for details
