@@ -39,4 +39,4 @@ Kick start your NextJs project with pre-implemented starters (eg: redux, darkthe
 
 ## 🛡 License
 
-This project is under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is under the MIT License - see the [LICENSE.md](LICENSE) file for details
