@@ -1,13 +1,18 @@
 # NextJs Template
 
-Kick start your NextJs project with pre-implemented starters (eg: redux, darktheme with redux, material ui, etc)
+Kick start your NextJs project with pre-implemented starters (eg: redux, darktheme with redux, material ui,nprogress, etc)
 
-## ♥ Content
+## ✈ Live Preview of the Template
+
+- [See Here! 🔗](https://next-js-boilerplate.herokuapp.com/)
+- Deployed using Heroku
+
+## ❤ Content
 
 ```sh
 - Next js app
 - Theme Implementation (with dark mode) using Redux
-- Progress Bar Implementation
+- Progress Bar Implementation (nprogress)
 - Packages:
   - Redux (with redux-thunk)
   - Material UI
@@ -16,14 +21,21 @@ Kick start your NextJs project with pre-implemented starters (eg: redux, darkthe
 
 ## ⚔ Getting Started
 
-Clone the repository, by tying this command in terminal
+1. Create your new project directory
+2. Open terminal inside your empty project directory
+3. Clone the repository into it, by tying this command in terminal (don't forget the dot)
 
-```sh
-git clone xxxxxx && cd react-native-boilerplate
-yarn install
-```
+   ```sh
+    git clone https://github.com/siddsarkar/next-js-boilerplate.git .
+   ```
 
-> Make sure to remove the existing git history and initialize the project with your own
+4. Install dependencies, by tying this command in terminal
+
+   ```sh
+    yarn install
+   ```
+
+5. Make sure to remove the existing git history and initialize the project with your own
 
 ## 🛡 License
 
