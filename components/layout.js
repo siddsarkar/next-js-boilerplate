@@ -8,7 +8,7 @@ import {
 import { useEffect, useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setTheme } from "../store/actions/themeActions";
-import palette from "../theme/palette";
+import Palette from "../theme/palette";
 import MainAppBar from "./appbar";
 
 export default function Layout({ children, page }) {
@@ -23,7 +23,7 @@ export default function Layout({ children, page }) {
     () =>
       createMuiTheme({
         palette: {
-          ...palette,
+          ...Palette,
           type: dark ? "dark" : "light",
         },
       }),

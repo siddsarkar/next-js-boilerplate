@@ -10,7 +10,7 @@ const Counter = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className="counter">
+    <div className='counter'>
       <h1>
         Count: <span>{count}</span>
       </h1>

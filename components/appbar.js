@@ -12,7 +12,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { toggleTheme } from "../store/actions/themeActions";
 
 function NavLink({ href, name }) {
-  // Must add passHref to Link
   return (
     <Link href={href} passHref>
       <RedLink>{name}</RedLink>

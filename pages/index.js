@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import Examples from "../components/examples";
 import Layout from "../components/layout";
-import { startClock } from "../store/actions/counterActions";
+import { startClock } from "../store/actions/timerActions";
 
 const Index = () => {
   const dispatch = useDispatch();

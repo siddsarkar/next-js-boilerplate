@@ -1,6 +1,6 @@
 import { red } from "@material-ui/core/colors";
 
-const palette = {
+const Palette = {
   primary: {
     light: "#757ce8",
     main: "#3f50b5",
@@ -21,4 +21,4 @@ const palette = {
   },
 };
 
-export default palette;
+export default Palette;

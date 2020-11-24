@@ -3,7 +3,7 @@ import Counter from "./counter";
 
 const Examples = () => {
   return (
-    <div className="clock">
+    <div className='clock'>
       <Clock />
       <Counter />
       <style>

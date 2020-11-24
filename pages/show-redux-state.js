@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 import Layout from "../components/layout";
 
 const codeStyle = {
-  // background: "#ebebeb",
   width: 400,
   padding: 10,
   border: "1px solid grey",

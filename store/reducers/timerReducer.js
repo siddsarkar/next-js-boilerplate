@@ -1,4 +1,4 @@
-import * as types from "../actions/actionTypes";
+import * as actionTypes from "../actions/actionTypes";
 
 const initialTimerState = {
   lastUpdate: 0,
@@ -7,7 +7,7 @@ const initialTimerState = {
 
 const timerReducer = (state = initialTimerState, { type, payload }) => {
   switch (type) {
-    case types.TICK:
+    case actionTypes.TICK:
       return {
         lastUpdate: payload.ts,
         light: !!payload.light,
